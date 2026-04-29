@@ -3,12 +3,12 @@ import "../styles/TopBar.css";
 function TopBar() {
   return (
     <div className="topbar">
-      <div className="topbar-container">
-
+      <div className="topbar-container ">
         <div className="topbar-right">
-
           <a href="#" className="pqrd">
-            Radica tu PQRD
+            <strong className="nabvar-strong">
+              Radica tu <br className="mobile-break" /> PQRD
+            </strong>
           </a>
 
           {/* Buscador */}
@@ -18,12 +18,18 @@ function TopBar() {
           </div>
 
           {/* Links */}
-          <a href="#">Preguntas Frecuentes</a>
-          <a href="#">Oficina Virtual</a>
-          <a href="#" className="register">Regístrate</a>
-
+          <a href="#">
+            Preguntas <br className="mobile-break" />
+            Frecuentes
+          </a>
+          <a href="#">
+            Oficina <br className="mobile-break" />
+            Virtual
+          </a>
+          <a href="#" className="register">
+            Regístrate
+          </a>
         </div>
-
       </div>
     </div>
   );

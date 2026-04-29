@@ -6,18 +6,20 @@ import Slider from "./components/Slider";
 //css
 import "./styles/styles.css";
 import "./styles/TopBar.css";
-import "./styles/slider.css"
+import "./styles/slider.css";
 
 function App() {
   return (
     <>
-      <TopBar/>
-      <Header />
-      <Navbar />
-      <Slider/>
+      <div className="layout">
+        <TopBar />
+        <Navbar />
+      </div>
+      {/*<Header />}
+     <Slider/>
       <main>
-        <Banner />
-      </main>
+       <Banner />}
+      </main>*/}
     </>
   );
 }
