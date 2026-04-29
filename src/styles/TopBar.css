@@ -1,0 +1,66 @@
+/* RESET */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Barra completa */
+.topbar {
+  width: 100%;
+  background: #e6e6e6;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+}
+
+/* CONTENEDOR CLAVE */
+.topbar-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; /* 🔥 TODO A LA DERECHA */
+  align-items: center;
+  padding: 6px 20px;
+  box-sizing: border-box;
+}
+
+/* Elementos */
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* PQRD */
+.pqrd {
+  color: #0077cc;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Buscador */
+.search-box {
+  position: relative;
+}
+
+.search-box input {
+  padding: 5px 30px 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Icono */
+.search-box .icon {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Links */
+.topbar-right a {
+  text-decoration: none;
+  color: #333;
+}
+
+.topbar-right a:hover {
+  color: #0077cc;
+}
