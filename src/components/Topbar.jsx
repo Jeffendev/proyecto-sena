@@ -6,11 +6,9 @@ function TopBar() {
       <div className="topbar-container ">
         <div className="topbar-right">
           <a href="#" className="pqrd">
-            <a href="#" className="pqrd">
-              <strong className="nabvar-strong">
-                Radica tu <br className="mobile-break" /> PQRD
-              </strong>
-            </a>
+            <strong className="nabvar-strong">
+              Radica tu <br className="mobile-break" /> PQRD
+            </strong>
           </a>
 
           {/* Buscador */}

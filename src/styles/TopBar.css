@@ -108,7 +108,7 @@ html, body {
     display: flex;
     flex-wrap: nowrap;
     justify-content:space-between; /* 🔥 centra todo */
-    gap: 18px;
+    gap: 8px;
     text-align: center;
   }
 
@@ -137,8 +137,19 @@ html, body {
     align-items: center;
     padding: 2px 20px;
     box-sizing: border-box;
-}
+  }
+  .navbar {
+    order: 1;
+  }
 
+  .topbar {
+    order: 2;
+  }
+
+  .layout {
+    display: flex;
+    flex-direction: column;
+  }
 
 
 }

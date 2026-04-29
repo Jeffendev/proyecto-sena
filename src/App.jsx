@@ -11,9 +11,11 @@ import "./styles/slider.css";
 function App() {
   return (
     <>
-      <TopBar />
+      <div className="layout">
+        <TopBar />
+        <Navbar />
+      </div>
       {/*<Header />}
-      <Navbar />
      <Slider/>
       <main>
        <Banner />}
