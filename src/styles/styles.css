@@ -20,20 +20,7 @@ body {
   padding: 10px 20px;
 }
 
-.navbar {
-  background: #004d84;
-  color: white;
 
-}
-
-.navbar ul {
-  display: flex;
-  list-style: none;
-  gap: 20px;
-  padding: 10px 20px;
-  flex-wrap: wrap;
-  margin-top: 0px;
-}
 
 .banner {
   display: flex;
