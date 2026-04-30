@@ -4,7 +4,7 @@
   display: flex;              /* 👈 clave */
   align-items: center;        /* centra vertical */
   justify-content: space-between; /* logo izquierda / menú derecha */
-  padding: 0px 20px;
+  padding: 0px 15px;
 
 }
 
@@ -19,11 +19,7 @@
   justify-content: flex-end;
 }
 
-.navbar img {
-  width: 120px; /* ajusta este valor */
-  height: auto;
-  
-}
+
 .navbar svg {
   fill: white;
   width:45px;
