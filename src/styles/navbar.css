@@ -8,6 +8,12 @@
 
 }
 
+.contenedor-logos {
+  display: flex;
+  align-items: center;
+  gap: 0; /* 👈 clave: sin espacio */
+}
+
 .navbar ul {
   display: flex;
   list-style: none;
@@ -20,8 +26,14 @@
 }
 
 
-.navbar svg {
+.logo {
   fill: white;
   width:45px;
   height: 45px;
+}
+
+.letras-logo{
+  width:245px;
+  height: 45px;
+  fill: white;
 }
