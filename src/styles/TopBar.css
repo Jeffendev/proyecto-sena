@@ -108,7 +108,7 @@ html, body {
     display: flex;
     flex-wrap: nowrap;
     justify-content:space-between; /* 🔥 centra todo */
-    gap: 8px;
+    gap: 20px;
     text-align: center;
   }
 
