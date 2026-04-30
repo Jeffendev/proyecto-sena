@@ -23,6 +23,7 @@ body {
 .navbar {
   background: #004d84;
   color: white;
+
 }
 
 .navbar ul {
@@ -30,6 +31,8 @@ body {
   list-style: none;
   gap: 20px;
   padding: 10px 20px;
+  flex-wrap: wrap;
+  margin-top: 0px;
 }
 
 .banner {
