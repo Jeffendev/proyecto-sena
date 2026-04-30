@@ -1,5 +1,5 @@
 .navbar {
-  background: #004d84;
+  background: #032843;
   color: white;
   display: flex;              /* 👈 clave */
   align-items: center;        /* centra vertical */
@@ -33,7 +33,7 @@
 }
 
 .letras-logo{
-  width:245px;
+  width:220px;
   height: 45px;
   fill: white;
 }
