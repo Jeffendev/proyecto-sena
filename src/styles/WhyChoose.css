@@ -19,9 +19,19 @@
 }
 
 /* Imagen */
+
+.why-image {
+  display: flex;
+  justify-content: flex-end; /* 👈 mueve la imagen a la derecha */
+  padding-right: 100px; 
+}
+
+
 .why-image img {
   width: 100%;
-  max-width: 450px;
+  max-width: 540px;
+
+ 
 }
 
 .why-content {
