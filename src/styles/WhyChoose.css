@@ -6,7 +6,7 @@
   justify-content: center; 
   align-items: center;
   width: 100%;
-  background: #fff;
+  background: #ffffff;
 }
 
 .why-grid {
@@ -80,6 +80,7 @@
   width: 28px;                /* 👈 tamaño uniforme */
   height: 28px;
   object-fit: contain;
+   border-radius: 50%; /* 👈 hace el círculo */
 }
 
 
