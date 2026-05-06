@@ -15,9 +15,9 @@ function App() {
         <TopBar />
         <Navbar />
       </div>
-      {/*<Header />}
-     <Slider/>
-      <main>
+      <Slider/>
+      {/*<Header />*
+      {/*<main>}
        <Banner />}
       </main>*/}
     </>

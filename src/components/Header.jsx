@@ -6,9 +6,7 @@ function Header() {
         <span>Línea de atención</span>
       </div>
 
-      <div className="logo-container">
-        <img src="/logo.png" alt="Salud Total" />
-      </div>
+     
     </header>
   );
 }
