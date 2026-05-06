@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import Slider from "./components/Slider";
+import WhyChoose from "./components/WhyChoose";
 //css
 import "./styles/styles.css";
 import "./styles/TopBar.css";
@@ -16,10 +17,12 @@ function App() {
         <Navbar />
       </div>
       <Slider/>
-      {/*<Header />*
-      {/*<main>}
-       <Banner />}
-      </main>*/}
+      <WhyChoose/>
+
+      {/*<main>
+      </main>
+      <Header />
+       <Banner />*/}
     </>
   );
 }
