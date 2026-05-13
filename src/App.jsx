@@ -4,10 +4,14 @@ import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import Slider from "./components/Slider";
 import WhyChoose from "./components/WhyChoose";
+import InfoCards from "./components/InfoCards";
+import Valoracion from "./components/Valoracion";
 //css
 import "./styles/styles.css";
 import "./styles/TopBar.css";
 import "./styles/slider.css";
+import "./styles/infoCards.css"
+import "./styles/valoracion.css"
 
 function App() {
   return (
@@ -18,6 +22,9 @@ function App() {
       </div>
       <Slider/>
       <WhyChoose/>
+      <InfoCards/>
+      <Valoracion/>
+
 
       {/*<main>
       </main>
