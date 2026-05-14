@@ -1,8 +1,11 @@
+
+
 .valoracion {
   width: 90%;
   max-width: 1150px;                                      
   margin: auto;
   padding: 5% 0;
+  background: aliceblue;
 }
 
 .valoracion h2 {
@@ -48,7 +51,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 20px;
-    row-gap: 8px;
+  row-gap: 8px;
 
 }
 
@@ -60,7 +63,7 @@
 
 label {
   font-size: 0.7rem;
-  margin-bottom: 3px;
+  margin-bottom: 1px;
   font-weight: bold;
 
   color: #002b5c;
@@ -81,7 +84,7 @@ select {
 }
 
 .full-input {
-  margin-top: 12px;
+  margin-top: 5px;
 }
 
 .checkbox {
