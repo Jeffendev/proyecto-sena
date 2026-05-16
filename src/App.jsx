@@ -8,6 +8,8 @@ import InfoCards from "./components/InfoCards";
 import Valoracion from "./components/Valoracion";
 import Tratamientos from "./components/Tratamientos";
 import Testimonials from "./components/Testimonials";
+import BlogCards from "./components/BlogCards";
+import Footer from "./components/Footer";
 //css
 import "./styles/styles.css";
 import "./styles/TopBar.css";
@@ -28,7 +30,8 @@ function App() {
       <Valoracion />
       <Tratamientos />
       <Testimonials />
-
+      <BlogCards />
+      <Footer />
       {/*<main>
       </main>
       <Header />
