@@ -104,7 +104,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>Dentisalud 2024 - Todos los derechos reservados</p>
+        <p>Dentisalud 2026 - Todos los derechos reservados</p>
       </div>
     </footer>
   );

@@ -1,6 +1,6 @@
 .navbar {
-  background: #032843;
-  color: white;
+  background: white;
+  color: #000000;
   display: flex;              /* 👈 clave */
   align-items: center;        /* centra vertical */
   justify-content: space-between; /* logo izquierda / menú derecha */
@@ -27,13 +27,16 @@
 
 
 .logo {
-  fill: white;
+  fill: rgb(14, 13, 13);
   width:45px;
   height: 45px;
+ 
+  display: none;
 }
 
 .letras-logo{
-  width:220px;
+  width: 180px;
   height: 45px;
-  fill: white;
+  fill: rgb(7, 7, 7);
+  margin-left: 50px;
 }

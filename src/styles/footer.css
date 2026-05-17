@@ -7,7 +7,7 @@
 
 .footer {
   width: 100%;
-  background: #012154;
+  background: #000000;
   color: white;
 }
 
@@ -84,7 +84,7 @@
   height: 50px;
 
   background: white;
-  color: #012154;
+  color: #08060d;
 
   display: flex;
   align-items: center;
@@ -111,7 +111,7 @@
 
 .footer-bottom {
   width: 100%;
-  background: #00163a;
+  background: #000000;
 
   text-align: center;
 

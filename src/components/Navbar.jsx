@@ -37,11 +37,76 @@ function Navbar() {
         </svg>
       </div>
       <ul>
-        <li>Inicio</li>
-        <li>Afiliados</li>
-        <li>Servicios</li>
-        <li>Trámites</li>
-        <li>Contacto</li>
+        <li>
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            class="a-redes-header"
+            rel="nofollow noopener"
+          >
+            <img
+              src="https://www.dentisalud.com.co/hubfs/icon_instagram_header.svg"
+              alt="instagram"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            class="a-redes-header"
+            rel="nofollow noopener"
+          >
+            <img
+              src="https://www.dentisalud.com.co/hubfs/icon_twitter_header.svg"
+              alt="Twitter"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            class="a-redes-header"
+            rel="nofollow noopener"
+          >
+            {" "}
+            <img
+              src="https://www.dentisalud.com.co/hubfs/icon_facebook_header.svg"
+              alt="facebook"
+            />{" "}
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://youtube.com"
+            target="_blank"
+            class="a-redes-header"
+            rel="nofollow noopener"
+          >
+            {" "}
+            <img
+              src="https://www.dentisalud.com.co/hubfs/icon_youtube_header.svg"
+              alt="youtube"
+            />{" "}
+          </a>
+        </li>
+        <li>
+          {" "}
+          <a
+            href="https://www.tiktok.com"
+            target="_blank"
+            class="a-redes-header"
+            rel="nofollow noopener"
+          >
+            {" "}
+            <img
+              src="https://www.dentisalud.com.co/hubfs/icon_tiktok_header.svg"
+              alt="tiktok"
+            />{" "}
+          </a>
+        </li>
+        <li> Agentar Cita</li>
       </ul>
     </nav>
   );

@@ -10,6 +10,7 @@ import Tratamientos from "./components/Tratamientos";
 import Testimonials from "./components/Testimonials";
 import BlogCards from "./components/BlogCards";
 import Footer from "./components/Footer";
+import FranjaBlanca from "./components/FranjaBlanca";
 //css
 import "./styles/styles.css";
 import "./styles/TopBar.css";
@@ -23,6 +24,7 @@ function App() {
       <div className="layout">
         <TopBar />
         <Navbar />
+        <FranjaBlanca />
       </div>
       <Slider />
       <WhyChoose />
