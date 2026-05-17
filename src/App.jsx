@@ -23,6 +23,7 @@ function App() {
     <>
       <div className="layout">
         <TopBar />
+
         <Navbar />
         <FranjaBlanca />
       </div>

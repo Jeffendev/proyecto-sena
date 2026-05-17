@@ -5,7 +5,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="contenedor-logos">
         <svg
-          className="logo"
+          className="logo2"
           version="1.2"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 239 252"
@@ -37,6 +37,14 @@ function Navbar() {
         </svg>
       </div>
       <ul>
+        <li>Inicio</li>
+        <li>Servicios</li>
+        <li>Ortodoncia</li>
+        <li>Implantes</li>
+        <li>Estética Dental</li>
+        <li>Contacto</li>
+      </ul>
+      <ul className="iconos">
         <li>
           <a
             href="https://www.instagram.com"
@@ -106,7 +114,6 @@ function Navbar() {
             />{" "}
           </a>
         </li>
-        <li> Agentar Cita</li>
       </ul>
     </nav>
   );
