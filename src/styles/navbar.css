@@ -83,7 +83,7 @@
   
   position: fixed;
 
-  left: 0;
+  
 
   top: 120px;
 
@@ -101,6 +101,10 @@
 
   align-items: flex-start;
   gap: 80px;
+
+  left: 50%;
+  /*transform: translateX(-50%);*/
+  padding-left: 693px;
 }
 
 
