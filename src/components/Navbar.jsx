@@ -40,6 +40,7 @@ function Navbar() {
       </div>
       <ul>
         <li>Inicio</li>
+
         <li className="menu-item">
           Servicios
           <div className="submenu">
@@ -51,10 +52,54 @@ function Navbar() {
             </div>
           </div>
         </li>
-        <li>Ortodoncia</li>
-        <li>Implantes</li>
-        <li>Estética Dental</li>
-        <li>Contacto</li>
+
+        <li className="menu-item">
+          Ortodoncia
+          <div className="submenu">
+            <div>
+              <p>Odontología</p>
+              <p>Limpieza dental</p>
+              <p>Blanqueamiento</p>
+              <p>Diseño de sonrisa</p>
+            </div>
+          </div>
+        </li>
+
+        <li className="menu-item">
+          Implantes
+          <div className="submenu">
+            <div>
+              <p>Odontología</p>
+              <p>Limpieza dental</p>
+              <p>Blanqueamiento</p>
+              <p>Diseño de sonrisa</p>
+            </div>
+          </div>
+        </li>
+
+        <li className="menu-item">
+          Estética Dental
+          <div className="submenu">
+            <div>
+              <p>Odontología</p>
+              <p>Limpieza dental</p>
+              <p>Blanqueamiento</p>
+              <p>Diseño de sonrisa</p>
+            </div>
+          </div>
+        </li>
+
+        <li className="menu-item">
+          Contacto
+          <div className="submenu">
+            <div>
+              <p>Odontología</p>
+              <p>Limpieza dental</p>
+              <p>Blanqueamiento</p>
+              <p>Diseño de sonrisa</p>
+            </div>
+          </div>
+        </li>
       </ul>
       <ul className="iconos">
         <li>
