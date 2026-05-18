@@ -39,7 +39,6 @@ function Navbar() {
         </svg>
       </div>
       <ul>
-        <li>Inicio</li>
         <li className="menu-item">
           Servicios
           <div className="submenu">
