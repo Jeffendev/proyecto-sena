@@ -9,6 +9,8 @@ function Navbar() {
           version="1.2"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 239 252"
+          width="312"
+          height="48"
         >
           <style></style>
           <path
@@ -38,7 +40,17 @@ function Navbar() {
       </div>
       <ul>
         <li>Inicio</li>
-        <li>Servicios</li>
+        <li className="menu-item">
+          Servicios
+          <div className="submenu">
+            <div>
+              <p>Odontología</p>
+              <p>Limpieza dental</p>
+              <p>Blanqueamiento</p>
+              <p>Diseño de sonrisa</p>
+            </div>
+          </div>
+        </li>
         <li>Ortodoncia</li>
         <li>Implantes</li>
         <li>Estética Dental</li>
